@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+h1 , p {
+    margin: 10px 0;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    line-height: 1.8;
+    background-color: #444;
+    color: #fff;
+}
+.container {
+    width: 85%;
+}
+.home {
+    text-align: center;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home img {
+    width: 160px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.home h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.home p {
+    color: #eee;
+}
+
+@media screen and (min-width : 768px) {
+    .container {
+        width: 60%;
+    }
+    .home p {
+        font-size: 19px;
+    }
+}
